@@ -821,3 +821,35 @@ h5, .h5 {
     color: #e25d5d;
 }
 /*End mediaqueries*/
+
+@media (max-width: 768px) {
+    .morabi_guest{
+        background-image:url('../assets/img/popup-mobile.jpg') ;
+        background-position:  center bottom;
+        background-size:cover;
+        padding:25% 15% 40% 15%;
+        text-align: center;
+    }
+    .nameofguest_morabi{
+        font-family:'Rouge Script';
+        color:#FFF;
+        font-size:48px;
+    }
+}
+@media (min-width: 769px) {
+    .morabi_guest{
+        background-image:url('../assets/img/popup-desktop.jpg') ;
+        background-position:  center bottom;
+        background-size:cover;
+        padding:10% 10%;
+        text-align: center;
+    }
+    .nameofguest_morabi{
+        font-family:'Rouge Script';
+        color:#FFF;
+        font-size:64px;
+    }
+}
+.invitation-mess{
+    color:#FFF;
+}
